@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Page() {
   // for mobile dev to open w 2 cols
   return (
-  <div className="min-h-screen grid grid-cols-1 lg:grid-cols-2">
+  <div className="bg-gray-100 min-h-screen grid grid-cols-1 lg:grid-cols-2">
     <div className="h-full lg:flex flex-col items-center justify-center px-4">
       <div className="text-center space-y-4 pt-16">
         <h1 className="font-bold text-3xl text-[#2E2A47]">
@@ -24,8 +24,8 @@ export default function Page() {
         </ClerkLoading>
       </div>
     </div>
-    <div className="h-full bg-green-200 hidden lg:flex items-center justify-center">
-      <Image src="/logo.svg" height={100} width={100} alt="Logo" />
+    <div className="h-full bg-gray-500 hidden lg:flex items-center justify-center">
+      <Image src="/logo.svg" height={500} width={500} alt="Logo" />
     </div>
   </div>
   );
