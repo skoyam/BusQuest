@@ -10,6 +10,10 @@ const RideSchema = new mongoose.Schema({
     endLat: Number,
     endLng: Number,
     pointsEarned: { type: Number, default: 0 },
+    verified: { type: Boolean, default: false },
+    // If you want to store more info, like which stops they boarded or deboarded:
+    boardStopId: String,
+    endStopId: String,
 }, { timestamps: true });
 
 export default mongoose.models.Ride || mongoose.model('Ride', RideSchema);
