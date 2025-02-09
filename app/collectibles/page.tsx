@@ -8,11 +8,14 @@ import { FC, useEffect, useState } from "react";
 
 // Sample collectibles list
 const collectibles = [
-  { id: 1, name: "Bronze Frame", price: 50, image: "/bronze-.png" },
-  { id: 2, name: "Silver Frame", price: 75, image: "/silver-frame.png" },
-  { id: 3, name: "Golden Frame", price: 100, image: "/golden-frame.png" },
-  { id: 4, name: "Rainbow Frame", price: 150, image: "/rainbow-frame.png" },
+  { id: 1, name: "Bronze Bunny", price: 50, image: "/collectibles/bronzebunny.png" },
+  { id: 2, name: "Silver Bunny", price: 75, image: "/collectibles/silverbun.png" },
+  { id: 3, name: "Golden Bunny", price: 100, image: "/collectibles/goldbun.png" },
+  { id: 4, name: "Rainbow Bunny", price: 150, image: "/collectibles/rainbowbun.png" },
+  { id: 5, name: "Silver Ball", price: 350, image: "/collectibles/silverball.png" },
+  { id: 6, name: "Red Ball", price: 450, image: "/collectibles/redball.png" },
 ];
+
 
 const CollectiblesPage: FC = () => {
   const [isClient, setIsClient] = useState(false);
@@ -69,8 +72,26 @@ const CollectiblesPage: FC = () => {
 
         {/* Collectibles Shop */}
         <Card className="col-span-2">
-          <CardHeader>
-            <CardTitle>Available Collectibles</CardTitle>
+        <CardHeader>
+            <CardTitle className="flex items-center space-x-2">
+              <span>Available Collectibles</span>
+              {/* Coins */}
+              <img
+                src="/collectibles/bronzecoin.png"
+                alt="Bronze Coin"
+                className="w-12 h-12"
+              />
+              <img
+                src="/collectibles/silvercoin.png"
+                alt="Silver Coin"
+                className="w-12 h-12"
+              />
+              <img
+                src="/collectibles/goldcoin.png"
+                alt="Gold Coin"
+                className="w-12 h-12"
+              />
+            </CardTitle>
           </CardHeader>
           <CardContent>
             <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -85,7 +106,15 @@ const CollectiblesPage: FC = () => {
                     className="w-24 h-24 mb-4"
                   />
                   <span className="font-medium">{collectible.name}</span>
-                  <span className="text-gray-500">{collectible.price} Points</span>
+                  
+                  <div className="flex items-center space-x-1 text-gray-500">
+                    <img
+                      src="/collectibles/goldcoin.png" // The gold coin image
+                      alt="Gold Coin"
+                      className="w-5 h-5"
+                    />
+                    <span>{collectible.price} Points</span>
+                  </div>
                   <Button
                     className="mt-4 bg-teal-600 hover:bg-teal-700"
                     onClick={() => handleRedeem(collectible)}
