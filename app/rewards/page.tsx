@@ -21,7 +21,7 @@ const rewards: Reward[] = [
     name: "Sticker Pack",
     description: "Redeem a BusQuest sticker pack for 100 points.",
     points: 100,
-    imageUrl: "/rewards/sticker.png",
+    imageUrl: "/rewards/stickers.png",
   },
   {
     id: 2,
@@ -35,14 +35,14 @@ const rewards: Reward[] = [
     name: "Exclusive Badge",
     description: "Unlock a special BusQuest profile badge.",
     points: 300,
-    imageUrl: "/rewards/badge.png",
+    imageUrl: "/rewards/frames.png",
   },
   {
     id: 4,
     name: "WolfPack Outfitters Coupon",
     description: "Get a 10% discount on WolfPack Outfitters merchandise.",
     points: 500,
-    imageUrl: "/rewards/merch.png",
+    imageUrl: "/rewards/wolfpack.png",
   },
 ];
 
