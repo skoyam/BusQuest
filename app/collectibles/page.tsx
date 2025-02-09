@@ -4,15 +4,15 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useUser } from '@clerk/nextjs';
+import Link from "next/link"; // import Link from Next.js
 import { FC, useEffect, useState } from "react";
 
 // Sample collectibles list
 const collectibles = [
-  { id: 1, name: "Bronze Frame", price: 50, image: "/bronze-frame.png" },
+  { id: 1, name: "Bronze Frame", price: 50, image: "/bronze-.png" },
   { id: 2, name: "Silver Frame", price: 75, image: "/silver-frame.png" },
   { id: 3, name: "Golden Frame", price: 100, image: "/golden-frame.png" },
   { id: 4, name: "Rainbow Frame", price: 150, image: "/rainbow-frame.png" },
-  
 ];
 
 const CollectiblesPage: FC = () => {
@@ -56,8 +56,14 @@ const CollectiblesPage: FC = () => {
 
   return (
     <div className="min-h-screen bg-gray-100">
-      <header className="bg-blue-500 text-white p-4">
-        <h1 className="text-3xl">Collectibles Shop</h1>
+      <header className="bg-teal-600 text-white p-4 flex justify-between items-center">
+      <h1 className="text-3xl">Collectibles Shop</h1>
+        <Link href="/" passHref>
+          <Button className="bg-teal-600 hover:bg-teal-700">
+            Back to Home
+          </Button>
+        </Link>
+        
       </header>
 
       <main className="p-4 grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -94,8 +100,8 @@ const CollectiblesPage: FC = () => {
                   <span className="font-medium">{collectible.name}</span>
                   <span className="text-gray-500">{collectible.price} Points</span>
                   <Button 
-                    className="mt-4 bg-blue-500 hover:bg-blue-600"
-                    onClick={() => handleRedeem(collectible)}>
+                    className="mt-4 bg-teal-600 hover:bg-teal-700"
+                    onClick={() => handleRedeem(collectible)} >
                     Redeem
                   </Button>
                 </li>
