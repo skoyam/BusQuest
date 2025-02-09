@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "@/components/ui/navigation-menu";
-import { useUser } from "@clerk/nextjs";
 import Link from "next/link";
 import { FC } from "react";
 
@@ -47,34 +46,28 @@ const rewards: Reward[] = [
 ];
 
 const RewardsPage: FC = () => {
-  const { user } = useUser();
-  const userPoints = user ? 150 : 0; // Assume the user has 150 points
+  const userPoints = 150; // Hardcoded points, replace with actual user data if needed
 
   return (
     <div className="min-h-screen bg-gray-100">
       {/* HEADER */}
       <header className="bg-teal-600 text-white py-4 px-6 flex justify-between items-center shadow">
-      <h1 className="text-2xl font-bold">BusQuest</h1>
-      <NavigationMenu>
-        <NavigationMenuList className="flex space-x-4">
-          <NavigationMenuItem>
-          <Link href="/" passHref>
-          <Button className="bg-teal-600 hover:bg-teal-700">
-            Go to Home
-          </Button>
-        </Link>
-          </NavigationMenuItem>
-          <NavigationMenuItem>
-          <Link href="/collectibles" passHref>
-          <Button className="bg-teal-600 hover:bg-teal-700">
-            Collectibles
-          </Button>
-        </Link>
-          </NavigationMenuItem>
-        </NavigationMenuList>
-      </NavigationMenu>
-    </header>
-
+        <h1 className="text-2xl font-bold">BusQuest</h1>
+        <NavigationMenu>
+          <NavigationMenuList className="flex space-x-4">
+            <NavigationMenuItem>
+              <Link href="/" passHref>
+                <Button className="bg-teal-600 hover:bg-teal-700">Go to Home</Button>
+              </Link>
+            </NavigationMenuItem>
+            <NavigationMenuItem>
+              <Link href="/collectibles" passHref>
+                <Button className="bg-teal-600 hover:bg-teal-700">Collectibles</Button>
+              </Link>
+            </NavigationMenuItem>
+          </NavigationMenuList>
+        </NavigationMenu>
+      </header>
 
       {/* REWARDS CONTENT */}
       <main className="p-6">
@@ -99,7 +92,12 @@ const RewardsPage: FC = () => {
                   <p className="text-gray-600">{reward.description}</p>
                   <div className="mt-4 flex justify-between items-center">
                     <span className="text-teal-600 font-bold">{reward.points} 🪙</span>
-                    <Button className={`bg-teal-600 text-white hover:bg-teal-700 ${userPoints < reward.points ? "opacity-50 cursor-not-allowed" : ""}`} disabled={userPoints < reward.points}>
+                    <Button
+                      className={`bg-teal-600 text-white hover:bg-teal-700 ${
+                        userPoints < reward.points ? "opacity-50 cursor-not-allowed" : ""
+                      }`}
+                      disabled={userPoints < reward.points}
+                    >
                       {userPoints >= reward.points ? "Redeem" : "Not Enough Points"}
                     </Button>
                   </div>

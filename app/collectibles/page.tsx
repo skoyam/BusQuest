@@ -3,7 +3,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { useUser } from '@clerk/nextjs';
 import Link from "next/link"; // import Link from Next.js
 import { FC, useEffect, useState } from "react";
 
@@ -16,37 +15,21 @@ const collectibles = [
 ];
 
 const CollectiblesPage: FC = () => {
-  const { isLoaded, user } = useUser();
   const [isClient, setIsClient] = useState(false);
 
-  // Render the component only on client side
   useEffect(() => {
     setIsClient(true);
   }, []);
 
-  if (!isClient || !isLoaded) return null;
+  if (!isClient) return null;
 
-  // if not a user
-  if (!user) {
-    return (
-      <div className="bg-gray-100 min-h-screen grid grid-cols-1 lg:grid-cols-2">
-        <div className="h-full lg:flex flex-col items-center justify-center px-4">
-          <div className="text-center space-y-4 pt-16">
-            <h1 className="font-bold text-3xl text-[#2E2A47]">Welcome Back!</h1>
-            <p className="text-base text-[#7E8CA0]">Log in or Create Account to access the Collectibles Shop!</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-
-  // User profile with points info
+  // Mock user profile
   const userProfile = {
-    name: user.firstName || "Anonymous",
+    name: "Player 1",
     points: 150, // Example points
   };
 
-  const handleRedeem = (collectible: { name: string, price: number }) => {
+  const handleRedeem = (collectible: { name: string; price: number }) => {
     if (userProfile.points >= collectible.price) {
       alert(`You have redeemed the ${collectible.name}`);
     } else {
@@ -57,13 +40,10 @@ const CollectiblesPage: FC = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <header className="bg-teal-600 text-white p-4 flex justify-between items-center">
-      <h1 className="text-3xl">Collectibles Shop</h1>
+        <h1 className="text-3xl">Collectibles Shop</h1>
         <Link href="/" passHref>
-          <Button className="bg-teal-600 hover:bg-teal-700">
-            Back to Home
-          </Button>
+          <Button className="bg-teal-600 hover:bg-teal-700">Back to Home</Button>
         </Link>
-        
       </header>
 
       <main className="p-4 grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -75,7 +55,7 @@ const CollectiblesPage: FC = () => {
             <div className="space-y-4">
               <div className="flex items-center space-x-4">
                 <Avatar>
-                  <AvatarImage src={user.imageUrl} />
+                  <AvatarImage src="/default-avatar.png" />
                   <AvatarFallback>{userProfile.name.charAt(0)}</AvatarFallback>
                 </Avatar>
                 <div>
@@ -95,13 +75,21 @@ const CollectiblesPage: FC = () => {
           <CardContent>
             <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {collectibles.map((collectible) => (
-                <li key={collectible.id} className="flex flex-col items-center bg-gray-50 p-4 rounded-lg shadow">
-                  <img src={collectible.image} alt={collectible.name} className="w-24 h-24 mb-4" />
+                <li
+                  key={collectible.id}
+                  className="flex flex-col items-center bg-gray-50 p-4 rounded-lg shadow"
+                >
+                  <img
+                    src={collectible.image}
+                    alt={collectible.name}
+                    className="w-24 h-24 mb-4"
+                  />
                   <span className="font-medium">{collectible.name}</span>
                   <span className="text-gray-500">{collectible.price} Points</span>
-                  <Button 
+                  <Button
                     className="mt-4 bg-teal-600 hover:bg-teal-700"
-                    onClick={() => handleRedeem(collectible)} >
+                    onClick={() => handleRedeem(collectible)}
+                  >
                     Redeem
                   </Button>
                 </li>

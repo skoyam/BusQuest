@@ -5,20 +5,22 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { NavigationMenu, NavigationMenuList } from "@/components/ui/navigation-menu";
 import { Slider } from "@/components/ui/slider";
 import coinIconUrl from '@/public/coin.png';
-import { ClerkLoaded, ClerkLoading, SignIn, useUser } from '@clerk/nextjs';
-import { motion } from 'framer-motion';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import { Loader2, MapPin } from "lucide-react";
+import { MapPin } from "lucide-react";
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { FC, useEffect, useState } from "react";
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 
+const Map = dynamic(() => import('react-leaflet'), { ssr: false });
+
 // For the map
-const redPinIcon = new L.Icon({
+const redPinIcon = L.icon({
   iconUrl: 'https://cdn-icons-png.flaticon.com/512/684/684908.png',
   iconSize: [32, 32],
 });
+
 
 const coinIcon = new L.Icon({
   iconUrl: coinIconUrl,
@@ -33,17 +35,10 @@ const quests = [
 ];
 
 const BusQuestMainPage: FC = () => {
-  const { isLoaded, user } = useUser();
-  const [isClient, setIsClient] = useState(false);
   const [selectedTime, setSelectedTime] = useState<number>(8); // Default time selection
   const [routeData, setRouteData] = useState<any[]>([]); // Data to store route 40 boardings info
   const [filteredBoardings, setFilteredBoardings] = useState<number>(0);
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  // load route 40 data
   useEffect(() => {
     fetch('/route_40_data.json')
       .then((response) => response.json())
@@ -74,65 +69,25 @@ const BusQuestMainPage: FC = () => {
       setFilteredBoardings(filteredData.reduce((total, entry) => total + entry.estimated_boardings, 0));
     }
   }, [selectedTime, routeData]);
-  
 
-  // if not a client or not loaded just ret null
-  if (!isClient || !isLoaded) return null;
 
-  if (!user) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 py-12">
-        <Card className="w-[380px] sm:w-[500px] bg-teal-700 text-white shadow-lg rounded-xl border-2 border-teal-800">
-          <CardHeader className="text-center">
-            <h1 className="text-3xl font-extrabold text-white mb-2">Welcome to BusQuest!</h1>
-            <p className="text-lg text-teal-100">Log in to start earning points for your trips and enjoy the journey.</p>
-          </CardHeader>
-          <CardContent className="flex flex-col items-center space-y-6 py-6">
-            <ClerkLoaded>
-              <SignIn path="/sign-in">
-                <Button className="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-md w-full transition-all ease-in-out duration-300">Sign In</Button>
-              </SignIn>
-            </ClerkLoaded>
-            <ClerkLoading>
-              <Loader2 className="animate-spin text-teal-300 text-xl" />
-            </ClerkLoading>
-          </CardContent>
-        </Card>
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
-          className="mt-6 text-center text-teal-600 font-medium"
-        >
-          <p>Sign in to unlock exclusive quests and rewards!</p>
-        </motion.div>
-      </div>
-    );
-  }
-
-  // get the userprofile from clerk
-  const userProfile = {
-    name: user.firstName || "Anonymous",
-    email: user.emailAddresses[0]?.emailAddress || "No email",
-    points: 150,
-  };
-
-  // header status w/collectibles for home page
   return (
     <div className="min-h-screen bg-gray-100">
       {/* HEADER */}
       <header className="bg-teal-600 text-white py-4 px-6 flex justify-between items-center shadow">
-        <h1 className="text-2xl font-bold">BusQuest</h1>
-        <NavigationMenu>
-          <NavigationMenuList className="flex space-x-4">
-            <Link href="/collectibles" passHref>
-              <Button className=" bg-teal-600 hover:bg-teal-700">
-                Collectibles
-              </Button>
-            </Link>
-          </NavigationMenuList>
-        </NavigationMenu>
+      <h1 className="text-2xl font-bold">BusQuest</h1>
+      <NavigationMenu>
+        <NavigationMenuList className="flex space-x-4">
+          <Link href="/collectibles" passHref>
+            <Button className="bg-teal-600 hover:bg-teal-700">Collectibles</Button>
+          </Link>
+          <Link href="/rewards" passHref>
+            <Button className="bg-teal-600 hover:bg-teal-700">Rewards</Button>
+          </Link>
+        </NavigationMenuList>
+      </NavigationMenu>
       </header>
+
 
       {/* MAIN CONTENT */}
       <main className="p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -194,45 +149,25 @@ const BusQuestMainPage: FC = () => {
 
         {/* SLIDER FOR TIME */}
         <Card className="col-span-1">
-        <CardHeader>
-          <h2 className="text-xl font-bold">⏰ Select Time</h2>
-        </CardHeader>
-        <CardContent>
-          <div className="space-y-4">
-            <Slider
-              value={[selectedTime]}
-              onValueChange={(value) => setSelectedTime(value[0])}
-              min={7} max={22} step={0.5} // step by 30 minutes (0.5 hours), iterate over 7am to 10pm
-              aria-label="Time Slider"
-              className="slider"
-            />
-            <p className="text-center text-lg mt-2">
-              Selected Time: {Math.floor(selectedTime)}:{selectedTime % 1 === 0 ? '00' : '30'}
-            </p>
-            <p className="text-center text-lg mt-2">
-              Estimated Boardings: {filteredBoardings}
-            </p>
-          </div>
-        </CardContent>
-      </Card>
-
-
-        {/* PROFILE */}
-        <Card className="col-span-1">
           <CardHeader>
-            <h2 className="text-xl font-bold">Your Profile</h2>
+            <h2 className="text-xl font-bold">⏰ Select Time</h2>
           </CardHeader>
           <CardContent>
-            <div className="space-y-2">
-              <p><strong>Name:</strong> {userProfile.name}</p>
-              <p><strong>Email:</strong> {userProfile.email}</p>
-              <p><strong>Points:</strong> {userProfile.points}</p>
-            </div>
-            <Link href="/rewards" passHref>
-              <Button className="mt-4 w-full bg-teal-600 hover:bg-teal-700">
-                View Rewards
-              </Button>
-            </Link>
+            <Slider
+              min={7}
+              max={22}
+              step={0.5}
+              value={[selectedTime]}
+              onValueChange={(value) => setSelectedTime(value[0])}
+            />
+            <p className="text-center mt-2 text-gray-700">
+              Selected Time: {Math.floor(selectedTime)}:{selectedTime % 1 === 0 ? "00" : "30"}
+            </p>
+
+            {/* Display the filteredBoardings value here */}
+            <p className="text-center mt-4 text-xl font-semibold">
+              Estimated Boardings: {filteredBoardings}
+            </p>
           </CardContent>
         </Card>
       </main>
