@@ -1,0 +1,917 @@
+[
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 07:00:00",
+        "estimated_boardings": 42
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 07:15:00",
+        "estimated_boardings": 42
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 07:30:00",
+        "estimated_boardings": 50
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 07:45:00",
+        "estimated_boardings": 44
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 08:00:00",
+        "estimated_boardings": 50
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 08:15:00",
+        "estimated_boardings": 45
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 08:30:00",
+        "estimated_boardings": 40
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 08:45:00",
+        "estimated_boardings": 45
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 09:00:00",
+        "estimated_boardings": 18
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 09:15:00",
+        "estimated_boardings": 18
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 09:30:00",
+        "estimated_boardings": 30
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 09:45:00",
+        "estimated_boardings": 24
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 10:00:00",
+        "estimated_boardings": 0
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 10:15:00",
+        "estimated_boardings": 27
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 10:30:00",
+        "estimated_boardings": 16
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 10:45:00",
+        "estimated_boardings": 1
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 11:00:00",
+        "estimated_boardings": 12
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 11:15:00",
+        "estimated_boardings": 22
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 11:30:00",
+        "estimated_boardings": 22
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 11:45:00",
+        "estimated_boardings": 8
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 12:00:00",
+        "estimated_boardings": 30
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 12:15:00",
+        "estimated_boardings": 3
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 12:30:00",
+        "estimated_boardings": 21
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 12:45:00",
+        "estimated_boardings": 16
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 13:00:00",
+        "estimated_boardings": 14
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 13:15:00",
+        "estimated_boardings": 14
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 13:30:00",
+        "estimated_boardings": 1
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 13:45:00",
+        "estimated_boardings": 7
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 14:00:00",
+        "estimated_boardings": 9
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 14:15:00",
+        "estimated_boardings": 8
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 14:30:00",
+        "estimated_boardings": 23
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 14:45:00",
+        "estimated_boardings": 27
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 15:00:00",
+        "estimated_boardings": 25
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 15:15:00",
+        "estimated_boardings": 28
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 15:30:00",
+        "estimated_boardings": 2
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 15:45:00",
+        "estimated_boardings": 24
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 16:00:00",
+        "estimated_boardings": 45
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 16:15:00",
+        "estimated_boardings": 46
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 16:30:00",
+        "estimated_boardings": 46
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 16:45:00",
+        "estimated_boardings": 46
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 17:00:00",
+        "estimated_boardings": 48
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 17:15:00",
+        "estimated_boardings": 40
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 17:30:00",
+        "estimated_boardings": 41
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 17:45:00",
+        "estimated_boardings": 49
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 18:00:00",
+        "estimated_boardings": 13
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 18:15:00",
+        "estimated_boardings": 21
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 18:30:00",
+        "estimated_boardings": 30
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 18:45:00",
+        "estimated_boardings": 6
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 19:00:00",
+        "estimated_boardings": 5
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 19:15:00",
+        "estimated_boardings": 28
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 19:30:00",
+        "estimated_boardings": 22
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 19:45:00",
+        "estimated_boardings": 24
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 20:00:00",
+        "estimated_boardings": 11
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 20:15:00",
+        "estimated_boardings": 6
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 20:30:00",
+        "estimated_boardings": 26
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 20:45:00",
+        "estimated_boardings": 14
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 21:00:00",
+        "estimated_boardings": 17
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 21:15:00",
+        "estimated_boardings": 24
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 21:30:00",
+        "estimated_boardings": 10
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 21:45:00",
+        "estimated_boardings": 11
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Avery Close Apt",
+        "timestamp": "2025-02-08 22:00:00",
+        "estimated_boardings": 2
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 07:00:00",
+        "estimated_boardings": 48
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 07:15:00",
+        "estimated_boardings": 44
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 07:30:00",
+        "estimated_boardings": 47
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 07:45:00",
+        "estimated_boardings": 42
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 08:00:00",
+        "estimated_boardings": 47
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 08:15:00",
+        "estimated_boardings": 47
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 08:30:00",
+        "estimated_boardings": 44
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 08:45:00",
+        "estimated_boardings": 46
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 09:00:00",
+        "estimated_boardings": 1
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 09:15:00",
+        "estimated_boardings": 6
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 09:30:00",
+        "estimated_boardings": 12
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 09:45:00",
+        "estimated_boardings": 1
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 10:00:00",
+        "estimated_boardings": 14
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 10:15:00",
+        "estimated_boardings": 18
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 10:30:00",
+        "estimated_boardings": 30
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 10:45:00",
+        "estimated_boardings": 7
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 11:00:00",
+        "estimated_boardings": 26
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 11:15:00",
+        "estimated_boardings": 29
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 11:30:00",
+        "estimated_boardings": 15
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 11:45:00",
+        "estimated_boardings": 7
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 12:00:00",
+        "estimated_boardings": 16
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 12:15:00",
+        "estimated_boardings": 1
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 12:30:00",
+        "estimated_boardings": 20
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 12:45:00",
+        "estimated_boardings": 10
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 13:00:00",
+        "estimated_boardings": 7
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 13:15:00",
+        "estimated_boardings": 30
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 13:30:00",
+        "estimated_boardings": 0
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 13:45:00",
+        "estimated_boardings": 3
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 14:00:00",
+        "estimated_boardings": 5
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 14:15:00",
+        "estimated_boardings": 4
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 14:30:00",
+        "estimated_boardings": 7
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 14:45:00",
+        "estimated_boardings": 11
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 15:00:00",
+        "estimated_boardings": 12
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 15:15:00",
+        "estimated_boardings": 6
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 15:30:00",
+        "estimated_boardings": 12
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 15:45:00",
+        "estimated_boardings": 20
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 16:00:00",
+        "estimated_boardings": 45
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 16:15:00",
+        "estimated_boardings": 46
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 16:30:00",
+        "estimated_boardings": 49
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 16:45:00",
+        "estimated_boardings": 40
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 17:00:00",
+        "estimated_boardings": 48
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 17:15:00",
+        "estimated_boardings": 44
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 17:30:00",
+        "estimated_boardings": 40
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 17:45:00",
+        "estimated_boardings": 41
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 18:00:00",
+        "estimated_boardings": 25
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 18:15:00",
+        "estimated_boardings": 3
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 18:30:00",
+        "estimated_boardings": 13
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 18:45:00",
+        "estimated_boardings": 9
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 19:00:00",
+        "estimated_boardings": 10
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 19:15:00",
+        "estimated_boardings": 10
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 19:30:00",
+        "estimated_boardings": 3
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 19:45:00",
+        "estimated_boardings": 1
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 20:00:00",
+        "estimated_boardings": 19
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 20:15:00",
+        "estimated_boardings": 28
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 20:30:00",
+        "estimated_boardings": 20
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 20:45:00",
+        "estimated_boardings": 25
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 21:00:00",
+        "estimated_boardings": 14
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 21:15:00",
+        "estimated_boardings": 15
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 21:30:00",
+        "estimated_boardings": 25
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 21:45:00",
+        "estimated_boardings": 14
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (NB)",
+        "timestamp": "2025-02-08 22:00:00",
+        "estimated_boardings": 10
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 07:00:00",
+        "estimated_boardings": 47
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 07:15:00",
+        "estimated_boardings": 49
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 07:30:00",
+        "estimated_boardings": 47
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 07:45:00",
+        "estimated_boardings": 41
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 08:00:00",
+        "estimated_boardings": 41
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 08:15:00",
+        "estimated_boardings": 48
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 08:30:00",
+        "estimated_boardings": 50
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 08:45:00",
+        "estimated_boardings": 45
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 09:00:00",
+        "estimated_boardings": 29
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 09:15:00",
+        "estimated_boardings": 2
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 09:30:00",
+        "estimated_boardings": 3
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 09:45:00",
+        "estimated_boardings": 4
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 10:00:00",
+        "estimated_boardings": 10
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 10:15:00",
+        "estimated_boardings": 12
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 10:30:00",
+        "estimated_boardings": 16
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 10:45:00",
+        "estimated_boardings": 24
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 11:00:00",
+        "estimated_boardings": 25
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 11:15:00",
+        "estimated_boardings": 13
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 11:30:00",
+        "estimated_boardings": 14
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 11:45:00",
+        "estimated_boardings": 7
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 12:00:00",
+        "estimated_boardings": 14
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 12:15:00",
+        "estimated_boardings": 27
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 12:30:00",
+        "estimated_boardings": 27
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 12:45:00",
+        "estimated_boardings": 5
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 13:00:00",
+        "estimated_boardings": 9
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 13:15:00",
+        "estimated_boardings": 3
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 13:30:00",
+        "estimated_boardings": 11
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 13:45:00",
+        "estimated_boardings": 26
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 14:00:00",
+        "estimated_boardings": 17
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 14:15:00",
+        "estimated_boardings": 14
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 14:30:00",
+        "estimated_boardings": 12
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 14:45:00",
+        "estimated_boardings": 20
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 15:00:00",
+        "estimated_boardings": 5
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 15:15:00",
+        "estimated_boardings": 18
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 15:30:00",
+        "estimated_boardings": 13
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 15:45:00",
+        "estimated_boardings": 22
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 16:00:00",
+        "estimated_boardings": 41
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 16:15:00",
+        "estimated_boardings": 42
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 16:30:00",
+        "estimated_boardings": 45
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 16:45:00",
+        "estimated_boardings": 49
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 17:00:00",
+        "estimated_boardings": 48
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 17:15:00",
+        "estimated_boardings": 50
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 17:30:00",
+        "estimated_boardings": 42
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 17:45:00",
+        "estimated_boardings": 41
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 18:00:00",
+        "estimated_boardings": 5
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 18:15:00",
+        "estimated_boardings": 18
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 18:30:00",
+        "estimated_boardings": 25
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 18:45:00",
+        "estimated_boardings": 12
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 19:00:00",
+        "estimated_boardings": 27
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 19:15:00",
+        "estimated_boardings": 26
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 19:30:00",
+        "estimated_boardings": 24
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 19:45:00",
+        "estimated_boardings": 3
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 20:00:00",
+        "estimated_boardings": 4
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 20:15:00",
+        "estimated_boardings": 24
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 20:30:00",
+        "estimated_boardings": 7
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 20:45:00",
+        "estimated_boardings": 27
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 21:00:00",
+        "estimated_boardings": 17
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 21:15:00",
+        "estimated_boardings": 19
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 21:30:00",
+        "estimated_boardings": 12
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 21:45:00",
+        "estimated_boardings": 28
+    },
+    {
+        "stop_name": "Avent Ferry Rd at Brigadoon Dr (SB)",
+        "timestamp": "2025-02-08 22:00:00",
+        "estimated_boardings": 11
+    }
+]
