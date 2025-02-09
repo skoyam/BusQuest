@@ -183,27 +183,27 @@ const BusQuestMainPage: FC = () => {
 
         {/* SLIDER FOR TIME */}
         <Card className="col-span-1">
-          <CardHeader>
-            <h2 className="text-xl font-bold">⏰ Select Time</h2>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-4">
-              <Slider
-                value={[selectedTime]}
-                onValueChange={(value) => setSelectedTime(value[0])}
-                min={7} max={22} step={0.5} // step by 30 minutes (0.5 hours), iterate over 7am to 10pm
-                aria-label="Time Slider"
-                className="slider"
-              />
-              <p className="text-center text-lg mt-2">
-                Selected Time: {Math.floor(selectedTime)}:{selectedTime % 1 === 0 ? '00' : '30'}
-              </p>
-              <p className="text-center text-lg mt-2">
-                Estimated Boardings: {filteredBoardings}
-              </p>
-            </div>
-          </CardContent>
-        </Card>
+        <CardHeader>
+          <h2 className="text-xl font-bold">⏰ Select Time</h2>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-4">
+            <Slider
+              value={[selectedTime]}
+              onValueChange={(value) => setSelectedTime(value[0])}
+              min={7} max={22} step={0.5} // step by 30 minutes (0.5 hours), iterate over 7am to 10pm
+              aria-label="Time Slider"
+              className="slider"
+            />
+            <p className="text-center text-lg mt-2">
+              Selected Time: {Math.floor(selectedTime)}:{selectedTime % 1 === 0 ? '00' : '30'}
+            </p>
+            <p className="text-center text-lg mt-2">
+              Estimated Boardings: {filteredBoardings}
+            </p>
+          </div>
+        </CardContent>
+      </Card>
 
 
         {/* PROFILE */}
