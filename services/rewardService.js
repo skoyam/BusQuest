@@ -1,7 +1,7 @@
 // app/services/rewardService.js
 
-import dbConnect from "@/lib/dbConnect";
-import Reward from "@/models/Reward";
+import dbConnect from "../lib/dbConnect";
+import Reward from "../models/Reward";
 
 /**
  * Create a new reward.
