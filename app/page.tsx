@@ -6,6 +6,7 @@ import { NavigationMenu, NavigationMenuList } from "@/components/ui/navigation-m
 import { Slider } from "@/components/ui/slider";
 import coinIconUrl from '@/public/coin.png';
 import { ClerkLoaded, ClerkLoading, SignIn, useUser } from '@clerk/nextjs';
+import { motion } from 'framer-motion';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import { Loader2, MapPin } from "lucide-react";
@@ -80,21 +81,31 @@ const BusQuestMainPage: FC = () => {
 
   if (!user) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center bg-gray-100">
-        <Card className="w-[400px] text-center">
-          <CardHeader>
-            <h1 className="text-2xl font-bold text-blue-600">Welcome to BusQuest!</h1>
-            <p className="text-gray-500">Log in to start earning points for your trips.</p>
+      <div className="min-h-screen flex flex-col items-center justify-center bg-gray-50 py-12">
+        <Card className="w-[380px] sm:w-[500px] bg-teal-700 text-white shadow-lg rounded-xl border-2 border-teal-800">
+          <CardHeader className="text-center">
+            <h1 className="text-3xl font-extrabold text-white mb-2">Welcome to BusQuest!</h1>
+            <p className="text-lg text-teal-100">Log in to start earning points for your trips and enjoy the journey.</p>
           </CardHeader>
-          <CardContent className="flex flex-col items-center space-y-4">
+          <CardContent className="flex flex-col items-center space-y-6 py-6">
             <ClerkLoaded>
-              <SignIn path="/sign-in" />
+              <SignIn path="/sign-in">
+                <Button className="bg-teal-600 hover:bg-teal-700 text-white font-semibold py-2 px-6 rounded-md w-full transition-all ease-in-out duration-300">Sign In</Button>
+              </SignIn>
             </ClerkLoaded>
             <ClerkLoading>
-              <Loader2 className="animate-spin text-muted-foreground" />
+              <Loader2 className="animate-spin text-teal-300 text-xl" />
             </ClerkLoading>
           </CardContent>
         </Card>
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.5 }}
+          className="mt-6 text-center text-teal-600 font-medium"
+        >
+          <p>Sign in to unlock exclusive quests and rewards!</p>
+        </motion.div>
       </div>
     );
   }
